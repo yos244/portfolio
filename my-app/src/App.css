@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add horizontal space between components */
+  gap: 20px; /* Add vertical space between components */
+}
+
+.basic-card {
+  background-color: rgb(223, 223, 26);
+}
+
+.python-card {
+  background-color: aqua;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  position:relative;
+  display: block;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 28px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: 10px;
+  z-index: 1;
+  
+}
+
+.navbar a:hover {
+  background-color: rgb(192, 177, 188);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: white;
+  z-index: 1;
+  max-width: 1300px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.LeftNav {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  padding-top: 60px;
+  transform: translateY(100%) translateX(-100%); /* Move the element up and to the left by its width */
+}
+
+
+.LeftNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.LeftNav li {
+  padding: 10px;
+  text-align: center;
+}
+
+.LeftNav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg); /* rotate the text 180 degrees to make it read from bottom to top */
+  padding: 16px 8px; /* flip padding values for vertical orientation */
+
+}
+
+
+.LeftNav li a:hover {
+  background-color: #ddd;
+}

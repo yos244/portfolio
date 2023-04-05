@@ -14,28 +14,25 @@ const bull = (
     •
   </Box>
 );
-export default function BasicCard({areas}) {
+export default function Python() {
   return (
     <Card className='card-box' sx={{ maxWidth: 275 }}>
       <CardContent>
         <Typography variant="h5" component="div">
-          {areas["place name"]}
+        Node
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          {areas.state}
+        Used NPM packages to desgin multiple apps
         </Typography>
         <Typography variant="body2">
-        longitude: {areas.longitude}
+        Used Node as a platform to program the Backend 
           <br />
         </Typography>
         <Typography variant="body2">
-        Latitude: {areas.latitude}
+        Testing: Pytest
           <br />
         </Typography>
-        <Typography variant="body2">
-        State Abbreviation: {areas["state abbreviation"]}
-          <br />
-        </Typography>
+
       </CardContent>
     </Card>
   );
