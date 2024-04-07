@@ -14,22 +14,21 @@ const bull = (
     •
   </Box>
 );
-export default function BasicCard() {
+export default function JestCard() {
   return (
     <Card className='card' sx={{ maxWidth: 275 }}>
-      <CardContent className='basic-card'>
+      <CardContent>
         <Typography variant="h5" component="div">
-        Javascript
+        Jest
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        Advanced
+        Used Jest as main testing environment for Javascript
         </Typography>
         <Typography variant="body2">
-        Proficient coding using Javascript
           <br />
         </Typography>
         <Typography variant="body2">
-        Testing: Jest
+        Testing: Pytest
           <br />
         </Typography>
 

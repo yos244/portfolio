@@ -1,20 +1,27 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./components/Home";
 import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import { LSkills } from "./components/LSkills";
+import LeftNav from "./components/LeftNav";
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <Router>
+    <div>
       <div className="App">
         <header className="App-header">
           <Header />
-          <Main />
+          <div className="nav-container">
+            <LeftNav />
+            <Navbar />
+          </div>
         </header>
       </div>
-    </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/LSkills" element={<LSkills />} />
+      </Routes>
+    </div>
   );
 }
-
 export default App;

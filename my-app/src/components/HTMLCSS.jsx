@@ -14,23 +14,18 @@ const bull = (
     •
   </Box>
 );
-export default function Python() {
+export default function HTMLCSS () {
   return (
-    <Card className='card-box' sx={{ maxWidth: 275 }}>
-      <CardContent>
+    <Card className='card' sx={{ maxWidth: 275 }}>
+      <CardContent className='python-card'>
         <Typography variant="h5" component="div">
-        Node
+        HTML + CSS
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        Used NPM packages to desgin multiple apps
+        Advanced
         </Typography>
         <Typography variant="body2">
-        Used Node as a platform to program the Backend 
-          <br />
-        </Typography>
-        <Typography variant="body2">
-        Testing: Pytest
-          <br />
+        Proficient at writing and debugging HTML and CSS styling
         </Typography>
 
       </CardContent>

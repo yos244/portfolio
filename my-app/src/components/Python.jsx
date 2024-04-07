@@ -16,7 +16,7 @@ const bull = (
 );
 export default function Python() {
   return (
-    <Card className='card-box' sx={{ maxWidth: 275 }}>
+    <Card className='card' sx={{ maxWidth: 275 }}>
       <CardContent className='python-card'>
         <Typography variant="h5" component="div">
         Python
@@ -29,7 +29,6 @@ export default function Python() {
           <br />
         </Typography>
         <Typography variant="body2">
-        Testing: Pytest
           <br />
         </Typography>
 

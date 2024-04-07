@@ -14,22 +14,21 @@ const bull = (
     •
   </Box>
 );
-export default function BasicCard() {
+export default function PyTest() {
   return (
     <Card className='card' sx={{ maxWidth: 275 }}>
-      <CardContent className='basic-card'>
+      <CardContent className='python-card'>
         <Typography variant="h5" component="div">
-        Javascript
+        PyTest
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        Advanced
+        Intermediate
         </Typography>
         <Typography variant="body2">
-        Proficient coding using Javascript
+        Uses Pytest to conduct tests for Python. 
           <br />
         </Typography>
         <Typography variant="body2">
-        Testing: Jest
           <br />
         </Typography>
 
