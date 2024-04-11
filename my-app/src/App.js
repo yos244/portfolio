@@ -5,6 +5,10 @@ import { Header } from "./components/Header";
 import { LSkills } from "./components/LSkills";
 import LeftNav from "./components/LeftNav";
 import Navbar from "./components/Navbar";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
+import { Video } from "./components/Video";
+import { Background } from "./components/Background";
 function App() {
   return (
     <div>
@@ -20,6 +24,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/LSkills" element={<LSkills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/video" element={<Video />} />
+        <Route path="/background" element={<Background />} />
       </Routes>
     </div>
   );

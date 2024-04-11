@@ -6,13 +6,10 @@ function LeftNav() {
     <div className="LeftNav">
       <ul>
         <li>
-          <Link to="/">Background</Link>
+          <Link to="/background">Background</Link>
         </li>
         <li>
-          <Link to="/about">Video  </Link>
-        </li>
-        <li>
-          <Link to="/about">Pictures </Link>
+          <Link to="/video">Lightining Talk Video</Link>
         </li>
       </ul>
     </div>

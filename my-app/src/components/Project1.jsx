@@ -14,18 +14,18 @@ const bull = (
     •
   </Box>
 );
-export default function Python() {
+export default function Project1() {
   return (
     <Card className='card' sx={{ maxWidth: 275 }}>
       <CardContent className='python-card'>
         <Typography variant="h5" component="div">
-        Python
+        React
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        Intermediate
+        NC Games Reviews
         </Typography>
         <Typography variant="body2">
-        Familiar with the main algorithms
+        A website to display, sort, like, dislike, and organise different reviews for games.
           <br />
         </Typography>
         <Typography variant="body2">

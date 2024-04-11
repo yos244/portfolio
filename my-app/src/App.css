@@ -46,7 +46,6 @@
   margin: 0 auto; /* Center the cards */
   max-width: 800px; /* Limit the maximum width of the cards */
   margin-top: -100px;
-  
 }
 
 .card {
@@ -170,9 +169,9 @@ html {
 .Home-text {
   font-size: 25px;
   color: white;
-  text-align: center;
+  text-align: justify;
   max-width: 62%; /* Set maximum width to 90% of the viewport width */
-  margin: -100px auto 0; /* Center the container horizontally and add 40px of space above */
+  margin: -75px auto 0; /* Center the container horizontally and add 40px of space above */
 }
 
 
@@ -185,5 +184,56 @@ transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.card.css-1dmqq99-MuiPaper-root-MuiCard-root:hover {
-  background-color: #ccc4bf;
+  background-color: #a59974;
+}
+
+.card-section-projects {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 150px; /* Adjust the gap between grid items */
+  margin-top: -70px; /* Adjust as needed to create space under the navbar */
+  margin-left: 300px; /* Center the grid horizontally */
+  margin-right: auto; /* Center the grid horizontally */
+}
+
+
+.card-contact {
+background-color: #61dafb;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.card-contact {
+  background-color: #9e9c9c;
+  border-radius: 10px; /* Set border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  margin-bottom: 20px; /* Add margin bottom */
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.card-contact :hover {
+  background-color: #a59974;
+}
+
+.images {
+  margin-left: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.image-box {
+  margin-top: 40px;
+  margin-left: 180px;
+} 
+
+.video {
+  margin-left: 350px;
+  margin-top: -60px;
+  color: white;
+  font-size: large;
+}
+
+.emoji {
+margin-top: 50px;
+  text-align: center;
+  font-size: 150px;
 }
